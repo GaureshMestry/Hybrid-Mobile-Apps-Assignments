@@ -1,0 +1,74 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.body {
+    background: linear-gradient(rgb(235, 198, 198)
+    ,rgb(247, 247, 211),
+    rgb(244, 219, 223)
+    );
+}
+
+.maincontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    align-content: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+div,
+h1 {
+    text-align: center;
+}
+
+.img2 {
+    width: 5px;
+    height: 5px;
+    padding-bottom: 50%;
+    align-content: center;
+    text-align: center;
+    padding-left: 25%;
+    /* object-fit: cover; */
+    /* object-position: bottom;
+    height: 100px;
+    width: 180px; */
+    /* clip-path: inset(5px 2px 2px 2px); */
+
+}
+
+
+.info {
+    /* text-align: center; */
+}
+
+.hr {
+    width: 80%;
+}
+
+div.Price~strong {
+
+    color: rgb(236, 175, 45);
+    /* background-color: aqua; */
+}
+
+.button {
+    border-radius: 3px;
+    color: white;
+    border-color: white;
+    box-shadow: 0 0 1px 1px green;
+    background-color: rgb(47, 199, 47);
+    cursor: pointer;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+
+}
