@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sunbeam Registration Form </title>
+    <style>
+        #img {
+            margin-left: 70ex;
+        }
+
+        h1 {
+            margin-left: 42ex;
+
+        }
+
+        .container {
+            display: flex;
+            /* Lines up logo and form horizontally */
+            align-items: center;
+            /* Centers them vertically in the row */
+            justify-content: space-between;
+            /* Pushes logo to left and form to right */
+            padding: 10px 20px;
+            margin-right: 20px;
+        }
+
+        /* table,
+        tr,
+        td.div1 {
+            cellspacing: "30";
+            margin-left:30; */
+
+        /* } */
+
+
+        /* table,
+        tr,
+        td#second {
+
+            cellspacing: "20";
+        } */
+
+
+        .form{
+            width:600px;
+            padding-bottom: 15%;
+        }
+
+
+        .name{
+            margin: 5px;
+        }
+       
+
+        .email{
+            margin:5px;
+        }
+    </style>
+</head>
+
+<body>
+   
+
+
+
+    <img id="img" src="sunbeam logo.png" alt="">
+    <h1>Sunbeam Registration Form</h1>
+
+
+
+    <div class="container">
+ <div class="video">
+   <video width="640" height="360" controls>
+    <source src="sunbeam video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video></div>
+
+
+<div class="form">
+        <form action="">
+            <div class=" name">
+                <strong>Name : </strong><input type="text">
+            </div>
+            <div class="name">
+                <strong>Birth Date : </strong><input type="text">
+            </div>
+            <div class="name">
+                <strong>Email : </strong><input type="email" placeholder="abc@gmail.com">
+            </div>
+            <div class="name">
+                <label for="pass">
+                    <strong>Password : </strong> </label><input type="password" placeholder="Enter Password" name="pass"
+                    id="pass">
+            </div>
+            <div>
+                <strong>Address : </strong><textarea name="textarea" id=""></textarea>
+            </div>
+
+
+
+            <div>
+                <label for="gender_female">
+                    Gender </label>
+                <input type="radio" id="gender_male" name="gender" /> Male
+
+                <input type="radio" id="gender_female" name="gender" />female
+            </div>
+
+            <div>
+
+
+
+                <div>
+                    <strong>Upload Photo : </strong> <input type="file">
+                </div>
+                <div>
+                    <strong>Select Your Course : </strong>
+                    <select name="course" id="course"> course
+                        <option value="PGCP-MC"> PGCP-MC</option>
+                        <option value="PGCP-AC"> PGCP-AC</option>
+                        <option value="PGCP-BDA">BDA</option>
+                        <option value="PGCP-ESD">ESD</option>
+
+
+                    </select>
+                </div>
+                <div>
+                    <strong>Skill Set : </strong> <select name="skill" id="skill">
+                        <option value="select">select</option>
+                        <option value="Java">Java</option>
+                        <option value="C++">C++</option>
+                        <option value="Python">Python</option>
+                        <option value="PHP">PHP</option>
+
+                    </select>
+                </div>
+                <div><button type="submit">register</button>
+               <button type="reset">clear</button></div>
+        </form>
+        </div>
+
+    </div>
+
+
+    
+
+
+</body>
+
+</html>
